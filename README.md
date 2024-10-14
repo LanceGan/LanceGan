@@ -1,5 +1,5 @@
 ### Hi there
-I am Ruijie Gan(甘瑞杰),a graduate student from the School of Information and Communication Engineering, Xi 'an Jiaotong University
+to be continue.....
 
 <!--
 **LanceGan/LanceGan** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
