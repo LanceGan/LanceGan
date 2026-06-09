@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LanceGan | Developer Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- 粒子动画背景 -->
+    <canvas id="particleCanvas"></canvas>
+
+    <!-- 导航栏 -->
+    <nav class="navbar">
+        <div class="nav-brand">LG</div>
+        <ul class="nav-links">
+            <li><a href="#home">首页</a></li>
+            <li><a href="#skills">技能</a></li>
+            <li><a href="#about">关于</a></li>
+        </ul>
+    </nav>
+
+    <!-- 首页区域 -->
+    <section id="home" class="hero-section">
+        <div class="hero-content">
+            <div class="greeting">你好，我是</div>
+            <h1 class="name">LanceGan</h1>
+            <div class="typewriter-container">
+                <span class="typewriter-prefix">&gt;</span>
+                <span id="typewriter" class="typewriter-text"></span>
+                <span class="cursor">_</span>
+            </div>
+            <div class="hero-buttons">
+                <a href="#skills" class="btn btn-primary">探索技能</a>
+                <a href="https://github.com/LanceGan" target="_blank" class="btn btn-outline">
+                    <i class="fab fa-github"></i> GitHub
+                </a>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="mouse">
+                <div class="wheel"></div>
+            </div>
+            <span>向下滚动</span>
+        </div>
+    </section>
+
+    <!-- 技能展示区域 -->
+    <section id="skills" class="skills-section">
+        <h2 class="section-title">技能展示</h2>
+        <div class="skills-grid">
+            <!-- 技能卡片将通过 JavaScript 动态生成 -->
+        </div>
+    </section>
+
+    <!-- 关于区域 -->
+    <section id="about" class="about-section">
+        <h2 class="section-title">关于我</h2>
+        <div class="about-content">
+            <div class="about-text">
+                <p>热爱编程与技术探索的开发者，专注于创造优雅且高效的解决方案。</p>
+                <p>喜欢将创意转化为现实，用代码解决问题。</p>
+            </div>
+            <div class="social-links">
+                <a href="https://github.com/LanceGan" target="_blank" class="social-link">
+                    <i class="fab fa-github"></i>
+                </a>
+                <a href="#" class="social-link">
+                    <i class="fab fa-twitter"></i>
+                </a>
+                <a href="#" class="social-link">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+                <a href="mailto:your-email@example.com" class="social-link">
+                    <i class="fas fa-envelope"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- 页脚 -->
+    <footer class="footer">
+        <p>&copy; 2026 LanceGan. All rights reserved.</p>
+        <p class="footer-quote">"Lucky you!"</p>
+    </footer>
+
+    <script src="js/particles.js"></script>
+    <script src="js/animations.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
